@@ -12,25 +12,29 @@ import deliveryRoutes from './routes/deliveryRoutes.js'
 
 dotenv.config()
 
-let port = process.env.PORT || 6000
-let app = express()
+const app = express()
+const port = process.env.PORT || 6000
 
-// ✅ Middlewares
+// ✅ Middleware
 app.use(express.json())
 app.use(cookieParser())
 
-// ✅ Updated CORS setup
+// ✅ CORS Config (Render + Local + Admin)
 app.use(cors({
   origin: [
-    "https://ogne-ecommerce-frontend.onrender.com", // frontend
-    "https://ogne-ecommerce-admin1.onrender.com",   // admin panel
-    "http://localhost:5173"                         // local dev frontend
+    "https://ogne-ecommerce-frontend.onrender.com", // deployed frontend
+    "https://ogne-ecommerce-admin1.onrender.com",   // deployed admin panel
+    "http://localhost:5173"                         // local dev
   ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true, // very important for cookies/JWT
+  credentials: true, // allow cookies + auth tokens
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
 }))
 
-// ✅ API routes
+// ✅ Fix for preflight OPTIONS request (CORS)
+app.options('*', cors())
+
+// ✅ Main Routes
 app.use("/api/auth", authRoutes)
 app.use("/api/user", userRoutes)
 app.use("/api/product", productRoutes)
@@ -38,14 +42,15 @@ app.use("/api/cart", cartRoutes)
 app.use("/api/order", orderRoutes)
 app.use("/api/delivery", deliveryRoutes)
 
+// ✅ Server Start
 app.listen(port, () => {
-  console.log(`✅ Server running on port ${port}`)
+  console.log(`🚀 Server running on port ${port}`)
   connectDb()
 })
 
-// ✅ Just a helper log
-console.log("Cloudinary ENV Check:", {
+// ✅ Cloudinary sanity check
+console.log("🌩️ Cloudinary ENV Check:", {
   CLOUDINARY_NAME: process.env.CLOUDINARY_NAME,
   CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
   CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET ? "Present ✅" : "Missing ❌",
-});
+})
