@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../component/Title';
-import contact from "../assets/contact2.jpg";
+import contact from "../assets/contact3.jpg";
 import NewLetterBox from '../component/NewLetterBox';
 import { motion } from 'framer-motion';
 
