@@ -24,7 +24,7 @@ app.use(cors({
   origin: [
     "https://ogne-ecommerce-frontend.onrender.com", // Render frontend
     "https://ogne-ecommerce-admin1.onrender.com",   // Admin panel
-    "https://ogne-ecommerce-frontend-erfpfqo8w-ayush-bhandarkars-projects.vercel.app", // ✅ New Vercel frontend
+    "https://vercel.com/ayush-bhandarkars-projects/ogne-ecommerce-frontend", // ✅ New Vercel frontend
     "http://localhost:5173"                         // Local development
   ],
   credentials: true, // important for JWT cookies
