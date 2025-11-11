@@ -22,14 +22,16 @@ app.use(cookieParser())
 // ✅ CORS Config (Render + Local + Admin)
 app.use(cors({
   origin: [
-    "https://ogne-ecommerce-frontend.onrender.com", // deployed frontend
-    "https://ogne-ecommerce-admin1.onrender.com",   // deployed admin panel
-    "http://localhost:5173"                         // local dev
+    "https://ogne-ecommerce-frontend.onrender.com", // Render frontend
+    "https://ogne-ecommerce-admin1.onrender.com",   // Admin panel
+    "https://ogne-ecommerce-frontend-erfpfqo8w-ayush-bhandarkars-projects.vercel.app", // ✅ New Vercel frontend
+    "http://localhost:5173"                         // Local development
   ],
-  credentials: true, // allow cookies + auth tokens
+  credentials: true, // important for JWT cookies
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
-}))
+}));
+
 
 // ✅ Fix for preflight OPTIONS request (CORS)
 app.options('*', cors())
