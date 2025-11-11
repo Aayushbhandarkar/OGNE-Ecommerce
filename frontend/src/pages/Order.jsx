@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Title from '../component/Title';
 import { shopDataContext } from '../context/ShopContext';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom'; // ✅ Added
