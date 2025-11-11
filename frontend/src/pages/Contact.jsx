@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../component/Title';
-import contact from "../assets/contact3.jpg";
+import contact from "../assets/ChatGPT Image Nov 10, 2025, 07_18_58 PM.png";
 import NewLetterBox from '../component/NewLetterBox';
 import { motion } from 'framer-motion';
 
