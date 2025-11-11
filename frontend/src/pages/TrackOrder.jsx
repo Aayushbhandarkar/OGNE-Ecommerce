@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 import Nav from "../component/Nav";
 import Loading from "../component/Loading";
 import { motion } from "framer-motion";
