@@ -26,14 +26,22 @@ function Login() {
     setLoading(true);
     console.log("Server URL =>", serverUrl);
     try {
-      const result = await axios.post(serverUrl + '/api/auth/login', { email, password }, { withCredentials: true });
-      console.log(result.data);
-      getCurrentUser();
-      toast.success("User Login Successful");
-      navigate("/");
+      const result = await axios.post(
+        serverUrl + '/api/auth/login',
+        { email, password },
+        { withCredentials: true }
+      );
+
+      console.log("✅ Login success:", result.data);
+      await getCurrentUser(); // wait until user data is fetched
+
+      toast.success("Login Successful 🎉");
+      // ⏳ Delay small redirect for cookie sync (Render fix)
+      setTimeout(() => navigate("/"), 700);
+
     } catch (error) {
-      console.log("Login Error:", error.response?.data || error.message);
-      toast.error("User Login Failed");
+      console.log("❌ Login Error:", error.response?.data || error.message);
+      toast.error(error.response?.data?.message || "Login Failed");
     } finally {
       setLoading(false);
     }
@@ -45,12 +53,21 @@ function Login() {
       const user = response.user;
       const name = user.displayName;
       const email = user.email;
-      const result = await axios.post(serverUrl + "/api/auth/googlelogin", { name, email }, { withCredentials: true });
-      console.log(result.data);
-      getCurrentUser();
-      navigate("/");
+
+      const result = await axios.post(
+        serverUrl + "/api/auth/googlelogin",
+        { name, email },
+        { withCredentials: true }
+      );
+
+      console.log("✅ Google login success:", result.data);
+      await getCurrentUser();
+      toast.success("Google Login Successful 🎉");
+      setTimeout(() => navigate("/"), 700);
+
     } catch (error) {
-      console.log(error);
+      console.log("❌ Google login error:", error);
+      toast.error("Google Login Failed");
     }
   };
 
@@ -68,7 +85,6 @@ function Login() {
 
       {/* RIGHT SIDE LOGIN FORM */}
       <div className="w-full md:w-1/2 h-full flex flex-col justify-center items-center px-8 md:px-16 bg-white">
-        {/* Logo */}
         <div className='w-full flex items-center justify-start mb-6 cursor-pointer' onClick={() => navigate("/")}>
           <img src={Logo} alt="Logo" className='w-[45px]' />
           <h1 className='text-[24px] font-semibold ml-3 text-black'>OGNÉ</h1>
@@ -79,7 +95,6 @@ function Login() {
           <p className='text-gray-600 text-[15px]'>Login to continue your shopping journey</p>
         </div>
 
-        {/* Form */}
         <div className='w-full max-w-[400px]'>
           <form onSubmit={handleLogin} className='flex flex-col gap-5'>
             <div
