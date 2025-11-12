@@ -1,4 +1,4 @@
-<img width="1919" height="1046" alt="Screenshot 2025-11-10 123528" src="https://github.com/user-attachments/assets/f0dda9c1-d1fa-492f-ae38-6080d6680501" /><img width="1919" height="1046" alt="Screenshot 2025-11-10 123528" src="https://github.com/user-attachments/assets/32a2b271-2c45-4806-b55a-4a5de7035e4a" /># 🛍️ OGNÉ – AI Powered E-Commerce Platform  
+# 🛍️ OGNÉ – AI Powered E-Commerce Platform  
 
 **OGNÉ** is a complete **AI-powered e-commerce web application** built using the **MERN stack**.  
 It provides a modern shopping experience with features like **AI product recommendations, secure payments, admin order tracking, live delivery status, and Google authentication**.  
