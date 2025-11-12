@@ -1,4 +1,4 @@
-# 🛍️ OGNÉ – AI Powered E-Commerce Platform  
+<img width="1919" height="1046" alt="Screenshot 2025-11-10 123528" src="https://github.com/user-attachments/assets/f0dda9c1-d1fa-492f-ae38-6080d6680501" /><img width="1919" height="1046" alt="Screenshot 2025-11-10 123528" src="https://github.com/user-attachments/assets/32a2b271-2c45-4806-b55a-4a5de7035e4a" /># 🛍️ OGNÉ – AI Powered E-Commerce Platform  
 
 **OGNÉ** is a complete **AI-powered e-commerce web application** built using the **MERN stack**.  
 It provides a modern shopping experience with features like **AI product recommendations, secure payments, admin order tracking, live delivery status, and Google authentication**.  
@@ -17,19 +17,41 @@ It provides a modern shopping experience with features like **AI product recomme
 
 ## 🖼️ Screenshots  
 
+
+
 > A quick overview of OGNÉ’s pages and UI — clean, modern, and responsive.  
 
-| Home Page | Collections | Product Detail |
-|------------|--------------|----------------|
-| ![Home](https://i.ibb.co/4PMwDgb/home.png) | ![Collection](https://i.ibb.co/kQcRRL7/product.png) | ![Product Detail](https://i.ibb.co/V33zvKb/tracking.png) |
+### 🔐 Login Page  
+<img width="1919" height="1050" alt="Login Page" src="https://github.com/user-attachments/assets/c6bf1dfc-b13e-4a6a-b33f-de0c84639e2b" />
 
-| Cart | Checkout | Order Tracking |
-|------|-----------|----------------|
-| ![Cart](https://i.ibb.co/XkDmqKH/cart.png) | ![Checkout](https://i.ibb.co/nBrJ2nS/checkout.png) | ![Tracking](https://i.ibb.co/fp3VdK7/admin.png) |
+---
 
-| Admin Dashboard | Add Product | Analytics |
-|------------------|--------------|------------|
-| ![Admin Dashboard](https://i.ibb.co/2PzyN5S/dashboard.png) | ![Add Product](https://i.ibb.co/Tg6L7y8/add-product.png) | ![Analytics](https://i.ibb.co/CwMfDYG/analytics.png) |
+### 🏠 Main Website Pages  
+
+| 🏡 Home Page | 🛍️ Collections | 👗 Product Detail |
+|--------------|----------------|------------------|
+| <img width="1919" height="1051" alt="Home" src="https://github.com/user-attachments/assets/6df928b6-2ffe-480b-b270-d525d144fe2a" /> | <img width="1919" height="1046" alt="Collections" src="https://github.com/user-attachments/assets/df4def1e-26f3-4404-abf8-3dff3bdbf4b5" /> | <img width="1895" height="1033" alt="Product Detail" src="https://github.com/user-attachments/assets/5c31690e-1b8b-448b-a4ec-560c5c27bd66" /> |
+
+---
+
+### 🛒 Shopping Flow  
+
+| 🧺 Cart | 💳 Checkout | 🚚 Order Tracking |
+|---------|-------------|------------------|
+| <img width="1905" height="1020" alt="Cart" src="https://github.com/user-attachments/assets/5bdd986b-6353-485f-873c-84379431d510" /> | <img width="1899" height="1026" alt="Checkout" src="https://github.com/user-attachments/assets/2b941be9-bde0-46ea-9fcf-d7034a22e2b8" /> | <img width="1899" height="1033" alt="Tracking" src="https://github.com/user-attachments/assets/5c31690e-1b8b-448b-a4ec-560c5c27bd66" /> |
+
+---
+
+### 🧑‍💼 Admin Dashboard  
+
+| 📊 Dashboard | ➕ Add Product | 📈 Analytics |
+|--------------|----------------|--------------|
+| <img width="1919" height="1049" alt="Dashboard" src="https://github.com/user-attachments/assets/a7977c03-7958-4488-9690-0a396e78852c" /> | <img width="1919" height="1050" alt="Add Product" src="https://github.com/user-attachments/assets/0bcae3ad-4a0e-4d75-b1d8-b6ebe14374cb" /> | <img width="1919" height="1061" alt="Analytics" src="https://github.com/user-attachments/assets/20e5db91-adc4-4ee9-9046-fd0b71156b46" /> |
+
+---
+
+🎥 *Demo Video Coming Soon – showcasing full user to admin experience.*
+
 
 🎥 *Demo Video Coming Soon — will include complete user + admin journey.*
 
