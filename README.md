@@ -1,57 +1,75 @@
 🛍️ OGNÉ – AI Powered E-Commerce Platform
 
-OGNÉ is a modern, AI-powered fashion e-commerce website built using the MERN Stack.
-It delivers a premium shopping experience inspired by ZARA & H&M, with features like AI recommendations, live order tracking, Razorpay payments, admin dashboard, and more.
+OGNÉ is a complete AI-powered e-commerce web application built using the MERN stack.
+It provides a modern shopping experience with features like AI product recommendations, secure payments, admin order tracking, live delivery status, and Google authentication.
 
-🌐 Live Links
-| Platform              | URL                                                                                        |
-| --------------------- | ------------------------------------------------------------------------------------------ |
-| 🖥️ **Frontend**      | [https://ogne-ecommerce-frontend.vercel.app](https://ogne-ecommerce-frontend.vercel.app)   |
-| ⚙️ **Backend API**    | [https://ogne-ecommerce-backend.onrender.com](https://ogne-ecommerce-backend.onrender.com) |
-| 🧑‍💼 **Admin Panel** | [https://ogne-ecommerce-admin1.onrender.com](https://ogne-ecommerce-admin1.onrender.com)   |
+🌐 Live Project
+Platform	URL
+🖥️ Frontend (User Site)	https://ogne-ecommerce-frontend.vercel.app
+
+⚙️ Backend (API)	https://ogne-ecommerce-backend.onrender.com
+
+🧑‍💼 Admin Panel	https://ogne-ecommerce-admin1.onrender.com
+🖼️ Screenshots
+
+A quick overview of OGNÉ’s pages and UI — clean, modern, and responsive.
+
+Home Page	Collections	Product Detail
+
+	
+	
+Cart	Checkout	Order Tracking
+
+	
+	
+Admin Dashboard	Add Product	Analytics
+
+	
+	
+
+🎥 Demo Video Coming Soon — will include complete user + admin journey.
 
 ⚙️ Tech Stack
-| Type               | Technologies                                            |
-| ------------------ | ------------------------------------------------------- |
-| **Frontend**       | React.js, Tailwind CSS, Framer Motion, Axios, Chart.js  |
-| **Backend**        | Node.js, Express.js, MongoDB                            |
-| **Authentication** | JWT, Firebase Google Auth                               |
-| **Payments**       | Razorpay                                                |
-| **Hosting**        | Render (Backend), Vercel (Frontend), MongoDB Atlas      |
-| **Extras**         | Cloudinary, React Toastify, Leaflet.js (Order Tracking) |
-
+Type	Technologies
+Frontend	React.js, Tailwind CSS, Framer Motion, Axios
+Backend	Node.js, Express.js, MongoDB
+Authentication	JWT, Firebase (Google Login)
+Payments	Razorpay
+Tracking	Leaflet.js (Map + Delivery Progress)
+Hosting	Render (Backend), Vercel (Frontend), MongoDB Atlas
+Extras	Cloudinary, React Toastify, Chart.js
 🚀 Features
-🧍‍♂️ User Side
+👤 User Features
 
-👕 Beautiful UI inspired by ZARA / H&M
+🔐 Login / Signup with Email or Google
 
-🔐 Secure Authentication (Email + Google Login)
+🛍️ Browse & Add Products to Cart
 
-🧾 Cart & Checkout with Razorpay integration
+💳 Secure Checkout with Razorpay
 
-🌍 Real-time Order Tracking (Delivery Stages + Map)
+🧾 Order History and Real-Time Tracking
 
-🧠 AI-based product recommendations
+🚚 Visual Delivery Stages (Packing → Shipped → Delivered)
 
-📥 Download Invoice (PDF format)
+🧠 Smart Product Suggestions
 
-✨ Responsive across all devices
+💬 AI-based Shopping Assistant (coming soon)
 
-🧑‍💼 Admin Side
+🧑‍💼 Admin Features
 
-📦 Add / Edit / Delete Products
+🗂️ Product Management (Add / Edit / Delete)
 
-📊 Sales Analytics Dashboard
+🧾 Order Management with Live Status
 
-🚚 Update Order Status (Packing → Shipped → Out for Delivery → Delivered)
+📊 Dashboard with Graphs & Insights
 
-🗺️ Order Map & Tracking Visualization
+🧍‍♂️ Manage Customers
 
-👥 Manage Users & Orders
+📦 Delivery Tracking Updates
 
+📈 Analytics and Reports
 
 🧩 Folder Structure
-
 OGNE-Ecommerce/
 │
 ├── backend/
@@ -75,7 +93,7 @@ OGNE-Ecommerce/
     ├── components/
     └── context/
 
-⚡ Installation Guide
+⚡ Installation
 1️⃣ Clone Repository
 git clone https://github.com/Aayushbhandarkar/OGNE-Ecommerce.git
 cd OGNE-Ecommerce
@@ -85,39 +103,41 @@ cd backend
 npm install
 npm run dev
 
-Create .env file in /backend
+
+Create a .env file inside /backend
+
 PORT=6000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
-RAZORPAY_KEY_ID=your_razorpay_id
+RAZORPAY_KEY_ID=your_razorpay_key
 RAZORPAY_KEY_SECRET=your_razorpay_secret
 ADMIN_EMAIL=your_admin_email
 ADMIN_PASSWORD=your_admin_password
 CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 3️⃣ Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-4️⃣ Admin Panel Setup
+4️⃣ Admin Setup
 cd admin
 npm install
 npm run dev
 
+💳 Razorpay Test Details
 
-💳 Razorpay Test Card
-Use the below card for testing payments in development:
+Use this card for testing payments during development:
 
-yaml
-Copy code
-Card No: 4111 1111 1111 1111  
+Card Number: 4111 1111 1111 1111  
 Expiry: Any future date  
-CVV: 123
-🧭 Real-Time Delivery Tracking
-📍 Dynamic delivery stages:
+CVV: 123  
+
+🧭 Delivery Tracking
+
+🚚 Stages:
 
 Order Placed
 
@@ -129,56 +149,53 @@ Out for Delivery
 
 Delivered
 
-🗺️ Realistic tracking UI using Leaflet.js
+📍 Visual map tracking using Leaflet.js
 
 🔄 Auto-updates every few seconds
 
-🧠 AI Features
-Personalized recommendations based on user behavior.
+🧠 Dynamic movement simulation for real delivery feel
 
-Smart search results (context-aware).
+📈 Future Enhancements
 
-Upcoming: AI chatbot for shopping assistance 🤖
+🧠 AI Shopping Assistant (Chatbot)
 
-🖼️ Screenshots
-🧠 You can add 10–12 images here. Use Markdown tables for perfect alignment.
+📹 Product Videos Integration
 
-Home Page	Product Page	Cart Page
+📦 Multi-Vendor Dashboard
 
-Checkout	Order Tracking	Admin Dashboard
+🛍️ Wishlist System
 
-🖼️ Future Additions:
+📧 Email Notifications (Order & Delivery updates)
 
-Product upload preview
+🌙 Dark Mode UI
 
-Razorpay payment success popup
-
-AI recommendation demo
-
-Mobile layout showcase
-
-🎥 Demo Video (Coming Soon)
-Add your demo walkthrough here 👇
-
-markdown
-Copy code
-🎬 [Watch the Full Demo on YouTube](https://youtu.be/demo-link)
 👨‍💻 Author
+
 Ayush Bhandarkar
 🎓 B.Tech Computer Engineering | MIET Bhandara
 💼 MERN Stack & AI Developer
 📧 ayushbhandarkar1503@gmail.com
-🔗 LinkedIn | GitHub
+
+🔗 LinkedIn
+ | GitHub
 
 🪄 Contributing
-Pull requests are welcome!
-Just fork → modify → submit PR 🙌
+
+Contributions are welcome!
+
+Fork this repository
+
+Create a new branch
+
+Make your changes
+
+Submit a pull request 🚀
 
 🧾 License
-Licensed under the MIT License — free to use and modify.
+
+This project is licensed under the MIT License — feel free to use and modify it.
 
 ⭐ Support
-If you like OGNÉ, please give it a ⭐ on GitHub —
-your star motivates me to build more amazing open-source projects 🚀
 
-
+If you like OGNÉ, don’t forget to star this repository 🌟
+Your support helps me build more open-source projects!
