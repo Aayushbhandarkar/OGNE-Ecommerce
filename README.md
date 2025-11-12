@@ -92,32 +92,6 @@ It provides a modern shopping experience with features like **AI product recomme
 
 ---
 
-## 🧩 Folder Structure  
-
-OGNE-Ecommerce/
-│
-├── backend/
-│ ├── config/
-│ ├── controller/
-│ ├── model/
-│ ├── routes/
-│ └── index.js
-│
-├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ ├── context/
-│ │ └── App.jsx
-│ └── vite.config.js
-│
-└── admin/
-├── src/
-├── pages/
-├── components/
-└── context/
-
-
 ---
 
 ## ⚡ Installation  
@@ -155,71 +129,28 @@ cd admin
 npm install
 npm run dev
 
-💳 Razorpay Test Details
-
-Use this card for testing payments during development:
-
-Card Number: 4111 1111 1111 1111  
-Expiry: Any future date  
-CVV: 123  
-
-🧭 Delivery Tracking
-
-🚚 Stages:
-
-Order Placed
-
-Packing
-
-Shipped
-
-Out for Delivery
-
-Delivered
-
-📍 Visual map tracking using Leaflet.js
-
-🔄 Auto-updates every few seconds
-
-🧠 Dynamic movement simulation for real delivery feel
-
-📈 Future Enhancements
-
-🧠 AI Shopping Assistant (Chatbot)
-
-📹 Product Videos Integration
-
-📦 Multi-Vendor Dashboard
-
-🛍️ Wishlist System
-
-📧 Email Notifications (Order & Delivery updates)
-
-🌙 Dark Mode UI
 
 👨‍💻 Author
 
 Ayush Bhandarkar
-🎓 B.Tech Computer Engineering | MIET Bhandara
-💼 MERN Stack & AI Developer
-📧 ayushbhandarkar1503@gmail.com
+🎓 B.Tech Computer Engineering 
+💼 MERN Stack & Java Developer
+📧 ayushbhandarkar7@gmail.com
 
-🔗 LinkedIn
- | GitHub
+---
 
-🪄 Contributing
+## 🤝 Connect With Me  
 
-Contributions are welcome!
+I'm always open to collaborations, discussions, and opportunities in **Web Development**, **MERN Stack**, and **Frontend Design**.  
+Let’s connect and grow together 🌱  
 
-Fork this repository
+| 🌐 Platform | 🔗 Link |
+|--------------|----------|
+| 💼 **LinkedIn** | [www.linkedin.com/in/ayush-bhandarkar-555730286](https://www.linkedin.com/in/ayush-bhandarkar-555730286) |
+| 🧠 **GitHub** | [github.com/Aayushbhandarkar](https://github.com/Aayushbhandarkar) |
 
-Create a new branch
+---
 
-Make your changes
+⭐ *If you liked this project, don’t forget to star the repo , it motivates me to build more awesome projects!* 🚀
 
-Submit a pull request 🚀
-
-⭐ Support
-
-If you like OGNÉ, don’t forget to star this repository 🌟
 Your support helps me build more open-source projects!
