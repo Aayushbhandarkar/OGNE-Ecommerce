@@ -9,7 +9,7 @@ It provides a modern shopping experience with features like **AI product recomme
 
 | Platform | URL |
 |-----------|-----|
-| 🖥️ **Frontend (User Site)** | [https://ogne-ecommerce-frontend.vercel.app](https://ogne-ecommerce-frontend.onrender.com) |
+| 🖥️ **Frontend (User Site)** | [https://ogne-ecommerce-frontend.onrender.com](https://ogne-ecommerce-frontend.onrender.com) |
 | ⚙️ **Backend (API)** | [https://ogne-ecommerce-backend.onrender.com](https://ogne-ecommerce-backend.onrender.com) |
 | 🧑‍💼 **Admin Panel** | [https://ogne-ecommerce-admin1.onrender.com](https://ogne-ecommerce-admin1.onrender.com) |
 
