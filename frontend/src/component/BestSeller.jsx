@@ -25,7 +25,7 @@ function BestSeller() {
       >
         <Title text1={"BEST"} text2={"SELLERS"} />
         <p className="text-gray-600 text-[15px] md:text-[18px] mt-[10px] font-light tracking-wide">
-          Tried, tested, loved — discover our most wanted products.
+          Tried, tested, loved discover our most wanted products.
         </p>
       </motion.div>
 
