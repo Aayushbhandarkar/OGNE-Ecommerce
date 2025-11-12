@@ -38,7 +38,7 @@ It provides a modern shopping experience with features like **AI product recomme
 
 | 🧺 Cart | 💳 Checkout | 🚚 Order Tracking |
 |---------|-------------|------------------|
-| <img width="1905" height="1020" alt="Cart" src="https://github.com/user-attachments/assets/5bdd986b-6353-485f-873c-84379431d510" /> | <img width="1899" height="1026" alt="Checkout" src="https://github.com/user-attachments/assets/2b941be9-bde0-46ea-9fcf-d7034a22e2b8" /> | <img width="1899" height="1033" alt="Tracking" src="https://github.com/user-attachments/assets/5c31690e-1b8b-448b-a4ec-560c5c27bd66" /> |
+| <img width="1905" height="1020" alt="Cart" src="https://github.com/user-attachments/assets/5bdd986b-6353-485f-873c-84379431d510" /> | <img width="1899" height="1026" alt="Checkout" src="https://github.com/user-attachments/assets/2b941be9-bde0-46ea-9fcf-d7034a22e2b8" /> | <img width="1919" height="1047" alt="Screenshot 2025-11-10 123700" src="https://github.com/user-attachments/assets/88917ee9-44b6-4fb5-9050-c39d19dd8369" />|
 
 ---
 
