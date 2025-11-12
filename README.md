@@ -112,10 +112,12 @@ It provides a modern shopping experience with features like **AI product recomme
 git clone https://github.com/Aayushbhandarkar/OGNE-Ecommerce.git
 cd OGNE-Ecommerce
 
+
 2️⃣ Backend Setup
 cd backend
 npm install
 npm run dev
+
 
 
 Create a .env file inside /backend
@@ -131,15 +133,18 @@ CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
+
 3️⃣ Frontend Setup
 cd frontend
 npm install
 npm run dev
 
+
 4️⃣ Admin Setup
 cd admin
 npm install
 npm run dev
+
 
 👨‍💻 Author
 
