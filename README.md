@@ -141,27 +141,30 @@ npm install
 npm run dev
 
 
-👨‍💻 Author
+---
 
-Ayush Bhandarkar
-🎓 B.Tech Computer Engineering 
-💼 MERN Stack & Java Developer
-📧 ayushbhandarkar7@gmail.com
+## 👨‍💻 Author  
+
+**Ayush Bhandarkar**  
+🎓 B.Tech in Computer Engineering  
+💻 MERN Stack & Java Developer  
+📧 **ayushbhandarkar7@gmail.com**
 
 ---
 
-## 🤝 Connect With Me  
+## 🌐 Connect With Me  
 
 I'm always open to collaborations, discussions, and opportunities in **Web Development**, **MERN Stack**, and **Frontend Design**.  
 Let’s connect and grow together 🌱  
 
-| 🌐 Platform | 🔗 Link |
+| 🌍 Platform | 🔗 Link |
 |--------------|----------|
 | 💼 **LinkedIn** | [www.linkedin.com/in/ayush-bhandarkar-555730286](https://www.linkedin.com/in/ayush-bhandarkar-555730286) |
-| 🧠 **GitHub** | [github.com/Aayushbhandarkar](https://github.com/Aayushbhandarkar) |
+| 🧑‍💻 **GitHub** | [github.com/Aayushbhandarkar](https://github.com/Aayushbhandarkar) |
 
 ---
 
-⭐ *If you liked this project, don’t forget to star the repo , it motivates me to build more awesome projects!* 🚀
+⭐ **If you liked this project**, don’t forget to star the repo — it motivates me to build more awesome projects! 🚀  
 
-Your support helps me build more open-source projects!
+Your support helps me build more open-source projects 💖  
+
