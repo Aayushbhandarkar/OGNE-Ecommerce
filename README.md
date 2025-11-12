@@ -122,15 +122,15 @@ npm run dev
 
 🧩 Create a .env file inside /backend
 
-PORT=6000
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret
-RAZORPAY_KEY_ID=your_razorpay_key
-RAZORPAY_KEY_SECRET=your_razorpay_secret
-ADMIN_EMAIL=your_admin_email
-ADMIN_PASSWORD=your_admin_password
-CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
+PORT=6000 <br>
+MONGO_URI=your_mongodb_url <br>
+JWT_SECRET=your_secret <br>
+RAZORPAY_KEY_ID=your_razorpay_key <br>
+RAZORPAY_KEY_SECRET=your_razorpay_secret <br>
+ADMIN_EMAIL=your_admin_email <br>
+ADMIN_PASSWORD=your_admin_password <br>
+CLOUDINARY_NAME=your_cloudinary_name <br>
+CLOUDINARY_API_KEY=your_cloudinary_api_key <br>
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 
