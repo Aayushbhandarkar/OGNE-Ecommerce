@@ -71,26 +71,37 @@ It provides a modern shopping experience with features like **AI product recomme
 
 ---
 
+---
+
 ## 🚀 Features  
 
-### 👤 User Features  
-- 🔐 Login / Signup with Email or Google  
-- 🛍️ Browse & Add Products to Cart  
-- 💳 Secure Checkout with Razorpay  
-- 🧾 Order History and Real-Time Tracking  
-- 🚚 Visual Delivery Stages (Packing → Shipped → Delivered)  
-- 🧠 Smart Product Suggestions  
-- 💬 AI-based Shopping Assistant (coming soon)  
-
-### 🧑‍💼 Admin Features  
-- 🗂️ Product Management (Add / Edit / Delete)  
-- 🧾 Order Management with Live Status  
-- 📊 Dashboard with Graphs & Insights  
-- 🧍‍♂️ Manage Customers  
-- 📦 Delivery Tracking Updates  
-- 📈 Analytics and Reports  
+### 👤 User Experience  
+| Feature | Description |
+|----------|-------------|
+| 🔐 **Authentication** | Secure Login / Signup with Email or Google using Firebase & JWT |
+| 🛍️ **Smart Shopping** | Browse, filter, and add products to your cart seamlessly |
+| 💳 **Secure Payments** | Razorpay integrated checkout for safe & easy payments |
+| 🧾 **Order History** | View all past orders with item details and payment info |
+| 🚚 **Real-Time Tracking** | Track your order journey — *Packing → Shipped → Delivered* |
+| 🎯 **Personalized Suggestions** | Smart product recommendations based on user interest |
+| 💬 **AI Shopping Assistant** *(coming soon)* | Chat-based assistant for instant product discovery |
 
 ---
+
+### 🧑‍💼 Admin Panel  
+| Feature | Description |
+|----------|-------------|
+| 🗂️ **Product Management** | Add, edit, and delete products with full control |
+| 🧾 **Order Management** | Update order statuses in real time — reflected to users instantly |
+| 📊 **Dashboard Insights** | Interactive charts and graphs for sales and performance overview |
+| 🧍‍♂️ **Customer Management** | Manage registered users and track activity |
+| 📦 **Delivery Tracking** | Update delivery progress for each order dynamically |
+| 📈 **Analytics Reports** | Get detailed performance data and business metrics |
+
+---
+
+🪄 *Designed for modern e-commerce — fast, secure, and realistic experience inspired by leading brands.*
+
 
 ---
 
