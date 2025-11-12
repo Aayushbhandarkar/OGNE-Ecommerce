@@ -134,17 +134,16 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key <br>
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 
-
-3️⃣ Frontend Setup
-cd frontend
-npm install
+3️⃣ **Frontend Setup** <br>
+cd frontend <br>
+npm install <br>
 npm run dev
 
-
-4️⃣ Admin Setup
-cd admin
-npm install
+4️⃣ **Admin Setup** <br>
+cd admin <br>
+npm install <br>
 npm run dev
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
