@@ -107,8 +107,8 @@ It provides a modern shopping experience with features like **AI product recomme
 
 ## ⚡ Installation  
 
-### 1️⃣ Clone Repository  
-```bash
+⚡ Installation
+1️⃣ Clone Repository
 git clone https://github.com/Aayushbhandarkar/OGNE-Ecommerce.git
 cd OGNE-Ecommerce
 
@@ -116,6 +116,7 @@ cd OGNE-Ecommerce
 cd backend
 npm install
 npm run dev
+
 
 Create a .env file inside /backend
 
@@ -140,31 +141,22 @@ cd admin
 npm install
 npm run dev
 
+👨‍💻 Author
 
----
+Ayush Bhandarkar
+🎓 B.Tech in Computer Engineering
+💻 MERN Stack & Java Developer
+📧 ayushbhandarkar7@gmail.com
 
-## 👨‍💻 Author  
+🌐 Connect With Me
 
-**Ayush Bhandarkar**  
-🎓 B.Tech in Computer Engineering  
-💻 MERN Stack & Java Developer  
-📧 **ayushbhandarkar7@gmail.com**
+I'm always open to collaborations, discussions, and opportunities in Web Development, MERN Stack, and Frontend Design.
+Let’s connect and grow together 🌱
 
----
-
-## 🌐 Connect With Me  
-
-I'm always open to collaborations, discussions, and opportunities in **Web Development**, **MERN Stack**, and **Frontend Design**.  
-Let’s connect and grow together 🌱  
-
-| 🌍 Platform | 🔗 Link |
-|--------------|----------|
-| 💼 **LinkedIn** | [www.linkedin.com/in/ayush-bhandarkar-555730286](https://www.linkedin.com/in/ayush-bhandarkar-555730286) |
-| 🧑‍💻 **GitHub** | [github.com/Aayushbhandarkar](https://github.com/Aayushbhandarkar) |
-
----
-
-⭐ **If you liked this project**, don’t forget to star the repo — it motivates me to build more awesome projects! 🚀  
-
-Your support helps me build more open-source projects 💖  
-
+| 🌍 Platform      | 🔗 Link                                                                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------------- |
+| 💼 **LinkedIn**  | [www.linkedin.com/in/ayush-bhandarkar-555730286](https://www.linkedin.com/in/ayush-bhandarkar-555730286) |
+| 🧑‍💻 **GitHub** | [github.com/Aayushbhandarkar](https://github.com/Aayushbhandarkar)   
+|
+⭐ If you liked this project, don’t forget to star the repo — it motivates me to build more awesome projects! 
+💖 Your support helps me build more open-source projects!
