@@ -13,10 +13,27 @@ function Card({ name, image, id, price }) {
       whileHover={{ scale: 1.03 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
       onClick={() => navigate(`/productdetail/${id}`)}
-      className="w-full max-w-[300px] bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-200 cursor-pointer group transition-all duration-500"
+      className="
+        w-full 
+        sm:max-w-[260px] 
+        md:max-w-[280px] 
+        lg:max-w-[300px] 
+        bg-white rounded-xl overflow-hidden 
+        shadow-sm hover:shadow-xl border border-gray-200 
+        cursor-pointer group transition-all duration-500
+      "
     >
       {/* Product Image */}
-      <div className="w-full h-[360px] overflow-hidden bg-[#f5f5f5] relative">
+      <div
+        className="
+          w-full 
+          h-[200px]      /* 👈 smaller height for mobile */
+          sm:h-[250px] 
+          md:h-[340px] 
+          lg:h-[360px] 
+          overflow-hidden bg-[#f5f5f5] relative
+        "
+      >
         <img
           src={image}
           alt={name}
@@ -26,7 +43,7 @@ function Card({ name, image, id, price }) {
         {/* Subtle overlay on hover */}
         <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-        {/* Quick View text (ZARA-style subtle hover text) */}
+        {/* Quick View text */}
         <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 bg-white/80 py-2 text-gray-800 text-sm font-medium tracking-wide">
           VIEW DETAILS
         </div>
@@ -51,7 +68,6 @@ function Card({ name, image, id, price }) {
           <span className="line-through mr-2">
             {currency} {Math.round(price * 1.3)}
           </span>
-          
         </div>
       </div>
     </motion.div>

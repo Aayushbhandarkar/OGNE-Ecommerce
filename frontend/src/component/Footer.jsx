@@ -75,10 +75,15 @@ function Footer() {
       {/* Divider */}
       <div className="border-t border-gray-300"></div>
 
-      {/* Copyright */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+      {/* Copyright Section */}
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm text-center md:text-left">
         <p>© 2025 OGNÉ — All Rights Reserved</p>
         <p className="mt-2 md:mt-0">Crafted with 🤍 for minimalists</p>
+      </div>
+
+      {/* 👇 Signature Line */}
+      <div className="w-full text-center py-3 bg-black text-white text-[14px] font-medium tracking-wide">
+        Made by <span className="text-[#ffcc00] font-semibold">Ayush Bhandarkar</span>
       </div>
     </footer>
   );

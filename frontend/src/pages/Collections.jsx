@@ -147,9 +147,14 @@ function Collections() {
         <AnimatePresence mode="popLayout">
           <motion.div
             layout
-            className="w-full min-h-[70vh] flex flex-wrap items-center justify-center gap-[40px]"
+            className="
+              w-full 
+              grid 
+              grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
+              gap-[20px] sm:gap-[25px] md:gap-[30px] lg:gap-[40px]
+            "
           >
-            {filterProduct.map((item, index) => (
+            {filterProduct.map((item) => (
               <motion.div
                 key={item._id}
                 layout
@@ -157,7 +162,7 @@ function Collections() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.4, ease: "easeOut" }}
-                className="hover:scale-[1.03] transition-all duration-300 cursor-pointer"
+                className="flex justify-center"
               >
                 <Card id={item._id} name={item.name} price={item.price} image={item.image1} />
               </motion.div>

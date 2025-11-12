@@ -35,7 +35,13 @@ function BestSeller() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.1 }}
         viewport={{ once: true }}
-        className="w-[90%] flex flex-wrap items-center justify-center gap-[40px] mt-[40px]"
+        className="
+          w-[90%] 
+          grid 
+          grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
+          gap-[20px] sm:gap-[25px] md:gap-[30px] lg:gap-[40px] 
+          mt-[40px]
+        "
       >
         {bestSeller.map((item, index) => (
           <motion.div
@@ -44,6 +50,7 @@ function BestSeller() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.05 }}
             viewport={{ once: true }}
+            className="flex justify-center"
           >
             <Card
               name={item.name}

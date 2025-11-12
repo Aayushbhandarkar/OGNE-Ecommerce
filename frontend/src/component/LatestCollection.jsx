@@ -24,17 +24,27 @@ function LatestCollection() {
       >
         <Title text1={"LATEST"} text2={"COLLECTIONS"} />
         <p className="text-gray-600 text-[15px] md:text-[18px] mt-[10px] font-light tracking-wide">
-          Step into style — New arrivals dropping this season!
+          Step into style New arrivals dropping this season!
         </p>
       </motion.div>
 
-      {/* Product Grid */}
+      {/* ✅ Responsive Product Grid */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.1 }}
         viewport={{ once: true }}
-        className="w-[90%] flex flex-wrap items-center justify-center gap-[40px] mt-[40px]"
+        className="
+          w-[90%] 
+          grid 
+          grid-cols-2           /* 📱 2 products per row on mobile */
+          sm:grid-cols-2 
+          md:grid-cols-3        /* 💻 3 on tablets */
+          lg:grid-cols-4        /* 🖥️ 4 on larger screens */
+          gap-x-[20px] 
+          gap-y-[40px] 
+          mt-[40px]
+        "
       >
         {latestProducts.map((item, index) => (
           <motion.div
