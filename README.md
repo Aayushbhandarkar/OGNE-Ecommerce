@@ -120,7 +120,7 @@ npm run dev
 
 
 
-Create a .env file inside /backend
+🧩 Create a .env file inside /backend
 
 PORT=6000
 MONGO_URI=your_mongodb_url
@@ -132,6 +132,7 @@ ADMIN_PASSWORD=your_admin_password
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
 
 
 3️⃣ Frontend Setup
@@ -150,7 +151,9 @@ npm run dev
 
 Ayush Bhandarkar
 🎓 B.Tech in Computer Engineering
+
 💻 MERN Stack & Java Developer
+
 📧 ayushbhandarkar7@gmail.com
 
 🌐 Connect With Me
