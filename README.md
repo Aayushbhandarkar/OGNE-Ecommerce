@@ -149,15 +149,12 @@ npm run dev
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-👨‍💻 Author
-
-Ayush Bhandarkar
-</>
-🎓 B.Tech in Computer Engineering
-</>
-💻 MERN Stack & Java Developer
-</>
+👨‍💻 **Author**  
+Ayush Bhandarkar <br>
+🎓 B.Tech in Computer Engineering <br>
+💻 MERN Stack & Java Developer <br>
 📧 ayushbhandarkar7@gmail.com
+
 
 🌐 Connect With Me
 
