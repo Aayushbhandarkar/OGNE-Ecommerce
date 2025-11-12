@@ -4,20 +4,22 @@ OGNÉ is a modern, AI-powered fashion e-commerce website built using the MERN St
 It delivers a premium shopping experience inspired by ZARA & H&M, with features like AI recommendations, live order tracking, Razorpay payments, admin dashboard, and more.
 
 🌐 Live Links
-Platform	URL
-🖥️ Frontend	https://ogne-ecommerce-frontend.vercel.app
+| Platform              | URL                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| 🖥️ **Frontend**      | [https://ogne-ecommerce-frontend.vercel.app](https://ogne-ecommerce-frontend.vercel.app)   |
+| ⚙️ **Backend API**    | [https://ogne-ecommerce-backend.onrender.com](https://ogne-ecommerce-backend.onrender.com) |
+| 🧑‍💼 **Admin Panel** | [https://ogne-ecommerce-admin1.onrender.com](https://ogne-ecommerce-admin1.onrender.com)   |
 
-⚙️ Backend API	https://ogne-ecommerce-backend.onrender.com
-
-🧑‍💼 Admin Panel	https://ogne-ecommerce-admin1.onrender.com
 ⚙️ Tech Stack
-Type	Technologies
-Frontend	React.js, Tailwind CSS, Framer Motion, Axios, Chart.js
-Backend	Node.js, Express.js, MongoDB
-Authentication	JWT, Firebase Google Auth
-Payments	Razorpay
-Hosting	Render (Backend), Vercel (Frontend), MongoDB Atlas
-Extras	Cloudinary, React Toastify, Leaflet.js (Order Tracking)
+| Type               | Technologies                                            |
+| ------------------ | ------------------------------------------------------- |
+| **Frontend**       | React.js, Tailwind CSS, Framer Motion, Axios, Chart.js  |
+| **Backend**        | Node.js, Express.js, MongoDB                            |
+| **Authentication** | JWT, Firebase Google Auth                               |
+| **Payments**       | Razorpay                                                |
+| **Hosting**        | Render (Backend), Vercel (Frontend), MongoDB Atlas      |
+| **Extras**         | Cloudinary, React Toastify, Leaflet.js (Order Tracking) |
+
 🚀 Features
 🧍‍♂️ User Side
 
@@ -47,7 +49,9 @@ Extras	Cloudinary, React Toastify, Leaflet.js (Order Tracking)
 
 👥 Manage Users & Orders
 
+
 🧩 Folder Structure
+
 OGNE-Ecommerce/
 │
 ├── backend/
@@ -81,9 +85,7 @@ cd backend
 npm install
 npm run dev
 
-
 Create .env file in /backend
-
 PORT=6000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
@@ -105,16 +107,16 @@ cd admin
 npm install
 npm run dev
 
-💳 Razorpay Test Card
 
+💳 Razorpay Test Card
 Use the below card for testing payments in development:
 
+yaml
+Copy code
 Card No: 4111 1111 1111 1111  
 Expiry: Any future date  
 CVV: 123
-
 🧭 Real-Time Delivery Tracking
-
 📍 Dynamic delivery stages:
 
 Order Placed
@@ -132,7 +134,6 @@ Delivered
 🔄 Auto-updates every few seconds
 
 🧠 AI Features
-
 Personalized recommendations based on user behavior.
 
 Smart search results (context-aware).
@@ -140,17 +141,11 @@ Smart search results (context-aware).
 Upcoming: AI chatbot for shopping assistance 🤖
 
 🖼️ Screenshots
-
 🧠 You can add 10–12 images here. Use Markdown tables for perfect alignment.
 
 Home Page	Product Page	Cart Page
 
-	
-	
 Checkout	Order Tracking	Admin Dashboard
-
-	
-	
 
 🖼️ Future Additions:
 
@@ -163,31 +158,27 @@ AI recommendation demo
 Mobile layout showcase
 
 🎥 Demo Video (Coming Soon)
-
 Add your demo walkthrough here 👇
 
+markdown
+Copy code
 🎬 [Watch the Full Demo on YouTube](https://youtu.be/demo-link)
-
 👨‍💻 Author
-
 Ayush Bhandarkar
 🎓 B.Tech Computer Engineering | MIET Bhandara
 💼 MERN Stack & AI Developer
 📧 ayushbhandarkar1503@gmail.com
-
-🔗 LinkedIn
- | GitHub
+🔗 LinkedIn | GitHub
 
 🪄 Contributing
-
 Pull requests are welcome!
 Just fork → modify → submit PR 🙌
 
 🧾 License
-
 Licensed under the MIT License — free to use and modify.
 
 ⭐ Support
-
 If you like OGNÉ, please give it a ⭐ on GitHub —
 your star motivates me to build more amazing open-source projects 🚀
+
+
