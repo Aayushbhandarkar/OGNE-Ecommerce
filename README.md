@@ -4,40 +4,38 @@ OGNÉ is a complete AI-powered e-commerce web application built using the MERN s
 It provides a modern shopping experience with features like AI product recommendations, secure payments, admin order tracking, live delivery status, and Google authentication.
 
 🌐 Live Project
-Platform	URL
-🖥️ Frontend (User Site)	https://ogne-ecommerce-frontend.vercel.app
+| Platform                     | URL                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| 🖥️ **Frontend (User Site)** | [https://ogne-ecommerce-frontend.vercel.app](https://ogne-ecommerce-frontend.vercel.app)   |
+| ⚙️ **Backend (API)**         | [https://ogne-ecommerce-backend.onrender.com](https://ogne-ecommerce-backend.onrender.com) |
+| 🧑‍💼 **Admin Panel**        | [https://ogne-ecommerce-admin1.onrender.com](https://ogne-ecommerce-admin1.onrender.com)   |
 
-⚙️ Backend (API)	https://ogne-ecommerce-backend.onrender.com
-
-🧑‍💼 Admin Panel	https://ogne-ecommerce-admin1.onrender.com
 🖼️ Screenshots
-
-A quick overview of OGNÉ’s pages and UI — clean, modern, and responsive.
-
-Home Page	Collections	Product Detail
-
-	
-	
-Cart	Checkout	Order Tracking
-
-	
-	
-Admin Dashboard	Add Product	Analytics
-
-	
-	
+| Home Page                                  | Collections                                         | Product Detail                                           |
+| ------------------------------------------ | --------------------------------------------------- | -------------------------------------------------------- |
+| ![Home](https://i.ibb.co/4PMwDgb/home.png) | ![Collection](https://i.ibb.co/kQcRRL7/product.png) | ![Product Detail](https://i.ibb.co/V33zvKb/tracking.png) |
+| Cart                                       | Checkout                                           | Order Tracking                                  |
+| ------------------------------------------ | -------------------------------------------------- | ----------------------------------------------- |
+| ![Cart](https://i.ibb.co/XkDmqKH/cart.png) | ![Checkout](https://i.ibb.co/nBrJ2nS/checkout.png) | ![Tracking](https://i.ibb.co/fp3VdK7/admin.png) |
+| Admin Dashboard                                            | Add Product                                              | Analytics                                            |
+| ---------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------- |
+| ![Admin Dashboard](https://i.ibb.co/2PzyN5S/dashboard.png) | ![Add Product](https://i.ibb.co/Tg6L7y8/add-product.png) | ![Analytics](https://i.ibb.co/CwMfDYG/analytics.png) |
 
 🎥 Demo Video Coming Soon — will include complete user + admin journey.
 
 ⚙️ Tech Stack
-Type	Technologies
-Frontend	React.js, Tailwind CSS, Framer Motion, Axios
-Backend	Node.js, Express.js, MongoDB
-Authentication	JWT, Firebase (Google Login)
-Payments	Razorpay
-Tracking	Leaflet.js (Map + Delivery Progress)
-Hosting	Render (Backend), Vercel (Frontend), MongoDB Atlas
-Extras	Cloudinary, React Toastify, Chart.js
+
+| Type               | Technologies                                       |
+| ------------------ | -------------------------------------------------- |
+| **Frontend**       | React.js, Tailwind CSS, Framer Motion, Axios       |
+| **Backend**        | Node.js, Express.js, MongoDB                       |
+| **Authentication** | JWT, Firebase (Google Login)                       |
+| **Payments**       | Razorpay                                           |
+| **Tracking**       | Leaflet.js (Map + Delivery Progress)               |
+| **Hosting**        | Render (Backend), Vercel (Frontend), MongoDB Atlas |
+| **Extras**         | Cloudinary, React Toastify, Chart.js               |
+
+
 🚀 Features
 👤 User Features
 
@@ -70,6 +68,7 @@ Extras	Cloudinary, React Toastify, Chart.js
 📈 Analytics and Reports
 
 🧩 Folder Structure
+
 OGNE-Ecommerce/
 │
 ├── backend/
@@ -95,6 +94,7 @@ OGNE-Ecommerce/
 
 ⚡ Installation
 1️⃣ Clone Repository
+
 git clone https://github.com/Aayushbhandarkar/OGNE-Ecommerce.git
 cd OGNE-Ecommerce
 
@@ -102,7 +102,6 @@ cd OGNE-Ecommerce
 cd backend
 npm install
 npm run dev
-
 
 Create a .env file inside /backend
 
@@ -128,7 +127,6 @@ npm install
 npm run dev
 
 💳 Razorpay Test Details
-
 Use this card for testing payments during development:
 
 Card Number: 4111 1111 1111 1111  
@@ -179,6 +177,8 @@ Ayush Bhandarkar
 🔗 LinkedIn
  | GitHub
 
+ GitHub
+
 🪄 Contributing
 
 Contributions are welcome!
@@ -190,10 +190,6 @@ Create a new branch
 Make your changes
 
 Submit a pull request 🚀
-
-🧾 License
-
-This project is licensed under the MIT License — feel free to use and modify it.
 
 ⭐ Support
 
