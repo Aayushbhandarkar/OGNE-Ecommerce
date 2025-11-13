@@ -33,10 +33,9 @@ function Login() {
       );
 
       console.log("✅ Login success:", result.data);
-      await getCurrentUser(); // wait until user data is fetched
+      await getCurrentUser();
 
       toast.success("Login Successful 🎉");
-      // ⏳ Delay small redirect for cookie sync (Render fix)
       setTimeout(() => navigate("/"), 700);
 
     } catch (error) {
@@ -158,6 +157,7 @@ function Login() {
                 Create New Account
               </span>
             </p>
+
           </form>
         </div>
       </div>
