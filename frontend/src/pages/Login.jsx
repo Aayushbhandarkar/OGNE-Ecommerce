@@ -1,10 +1,10 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import Logo from "../assets/logo.png";
 import google from '../assets/google.png';
 import { IoEyeOutline, IoEye } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { signInWithPopup } from 'firebase/auth';
+import { signInWithRedirect, getRedirectResult } from 'firebase/auth';
 import { auth, provider } from '../../utils/Firebase';
 import { authDataContext } from '../context/AuthContext';
 import { userDataContext } from '../context/UserContext';
@@ -21,10 +21,36 @@ function Login() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
+  // ✅ Handle Google Redirect Result
+  useEffect(() => {
+    async function handleRedirect() {
+      try {
+        const result = await getRedirectResult(auth);
+
+        if (result?.user) {
+          const user = result.user;
+
+          await axios.post(
+            serverUrl + "/api/auth/googlelogin",
+            { name: user.displayName, email: user.email },
+            { withCredentials: true }
+          );
+
+          await getCurrentUser();
+          toast.success("Google Login Successful 🎉");
+          setTimeout(() => navigate("/"), 700);
+        }
+      } catch (error) {
+        console.log("❌ Google redirect error:", error);
+      }
+    }
+
+    handleRedirect();
+  }, []);
+
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log("Server URL =>", serverUrl);
     try {
       const result = await axios.post(
         serverUrl + '/api/auth/login',
@@ -32,47 +58,30 @@ function Login() {
         { withCredentials: true }
       );
 
-      console.log("✅ Login success:", result.data);
-      await getCurrentUser(); // wait until user data is fetched
-
+      await getCurrentUser();
       toast.success("Login Successful 🎉");
-      // ⏳ Delay small redirect for cookie sync (Render fix)
       setTimeout(() => navigate("/"), 700);
 
     } catch (error) {
-      console.log("❌ Login Error:", error.response?.data || error.message);
       toast.error(error.response?.data?.message || "Login Failed");
     } finally {
       setLoading(false);
     }
   };
 
+  // ✅ NEW: Google Login using Redirect
   const googlelogin = async () => {
     try {
-      const response = await signInWithPopup(auth, provider);
-      const user = response.user;
-      const name = user.displayName;
-      const email = user.email;
-
-      const result = await axios.post(
-        serverUrl + "/api/auth/googlelogin",
-        { name, email },
-        { withCredentials: true }
-      );
-
-      console.log("✅ Google login success:", result.data);
-      await getCurrentUser();
-      toast.success("Google Login Successful 🎉");
-      setTimeout(() => navigate("/"), 700);
-
+      await signInWithRedirect(auth, provider);
     } catch (error) {
-      console.log("❌ Google login error:", error);
+      console.log("❌ Google login redirect error:", error);
       toast.error("Google Login Failed");
     }
   };
 
   return (
     <div className="w-screen h-screen flex bg-white">
+
       {/* LEFT SIDE IMAGE */}
       <div className="w-1/2 h-full hidden md:flex items-center justify-center relative overflow-hidden">
         <img
@@ -158,6 +167,7 @@ function Login() {
                 Create New Account
               </span>
             </p>
+
           </form>
         </div>
       </div>
